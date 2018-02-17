@@ -1,0 +1,201 @@
+/*****  base styles  ******/
+
+body{
+
+   font-family:  'Montserrat';
+   margin:  18px auto;
+   }
+
+
+/****  GRID  *****/
+
+.full-width  {
+      width:  1200px;
+      margin:  0 auto;
+      }
+.half-width  {
+      width:  600px;
+      float:  left;
+      }
+  
+.third-width  {
+      width:  394px;
+      float:  left;
+      }
+
+  
+       
+      /*****  HEADER   *****/
+      
+header{
+      width:  100%
+      height:  110px;
+      margin: 0 auto;
+      }
+      
+header h1{
+      font-size:  30px;
+      text-transform: uppercase;
+      color:  black;
+      float:  left;
+      padding:  15px 0;
+      }
+      
+header h1 span{
+ 	  color: #96b989;
+      text-transform: uppercase;
+      font-style:  normal;
+ 
+      }     
+nav {
+      float:  right;
+      padding: auto;
+      
+      }
+      
+nav  {
+      display; inline-block;
+      
+       }
+nav   a {
+      text-transform: uppercase;
+      color: #96b989;
+      font-size:  14 px;
+      padding: 0  10px;
+      }
+
+
+      /*       main             */
+
+
+.picture {
+   	height: 295px;
+	}
+.top{
+  	height:  145px;
+  	}
+.bottom{
+  	height:  207px;
+  	}
+.footer{
+  	height:  75px;
+  	}
+  
+  /*  picture */
+  
+
+.picture img {
+ 	color: #96b989;
+  	border:  3px solid #96b989;
+  	margin-left:  10px;
+  	margin-right:  10px;
+	}
+
+
+.picture .full-width  {
+  	color: #96b989;
+  
+	}
+
+/*     top        */
+
+
+.top .bottom .full-width  {
+   margin: 0 auto;
+   clear:  both;
+    }
+.picture{
+	clear:  both;
+	}
+#main-title   {
+	color:  #96b989;
+	font-size;  16px;
+	line-height;  150%;
+	padding-left: 20px;
+	}
+
+.top p{
+  	margin-left:  20px;
+  	margin-right:  20px;
+    }
+
+/*     bottom           */
+
+.bottom {
+  
+   border-top: 3px solid #96b989; 
+   border-bottom: 3px solid #96b989; 
+  
+   }
+.third-width{
+   text-align:  left;
+   float:  left;
+   }
+  
+.specials  {
+	text-align:  left;
+	padding-top:  10px;
+	width:  450;
+	height: 200px;
+	border-right: 3px solid #96b989;
+	}
+h3 {
+	font-size:  18px;
+	text-align:  left;
+	padding: 10px;
+	margin-left:  25px;
+	margin-top:  0px;
+	}
+
+
+ul li p  {
+	font-size:  16px;
+
+	}
+ ul li {
+	color: #96b989;
+	} 
+.reviews h3{
+	margin-right:  15px;
+	margin-top: 10px;
+	}
+
+.reviews p{
+    padding-right:  20px;
+    padding-left:  30px;
+} 
+.contact {
+  	text-align:  left;
+  	padding-top:  10px;
+  	width:  450;
+  	height: 200px;
+  	border-left: 3px solid #96b989;
+  	margin-right:  0px;
+  	padding-left:  50px;
+	}
+ .contact h3{
+  	margin-right:  0px;
+ 	 margin-top:  5px;
+	}
+
+/*     footer            */
+
+.footer{
+  	clear:  both;
+  	}
+ h4 {
+	text-align:  center;
+	font-size:  16px;
+	font-weight:  bold;
+	padding-top:  40px;
+	padding-bottom:  30px;
+	}
+
+ span  {
+    color:  #96b989;
+    font-style: italic;
+    text-transform:  lowercase;
+    }
+
+
+

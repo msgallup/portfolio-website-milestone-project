@@ -1,0 +1,554 @@
+/****** base styles  ********/
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+  color:  black;
+
+  margin:  auto;
+ 
+}
+
+h2{
+   font-family: trattatello;
+   font-size:  48px;
+   color:  white;
+   text-align:  center;
+    } 
+
+#header {
+    height: 742px;
+    }
+#about {
+    height: 549px;
+   }      
+#skills {
+    height: 419px;
+   
+    }
+#contact {
+    height: 783px;
+    }
+#footer  {
+    height:  124px;
+    }
+    
+    /*****   grid   ****/
+ .full-width {
+    width: 1200px;
+   
+    }
+.half-width  {
+    width:  600px;
+    float:  left;
+    }
+.third-width  {
+    width:  400px;
+   float:  left;
+    }
+    
+    
+    
+    /*******  Header   ********/
+   
+    
+    #header  {
+       background:  url('../img/cropped-stool.png');
+       background-size:  cover;
+       }
+   
+     #header h1 {
+      font-family:  Noteworthy, Sans-Serif;
+      font-size:  60px;
+      font-weight:  light;
+      text-align:  center;
+      clear:  both;
+      padding-top:  50px;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      text-transform: uppercase;
+      } 
+     
+    
+     #header h2  {
+       font-family:  Trattatello;
+       font-size: 48px;
+       color:  #78966c;
+       text-align:  center;
+       padding-top:  10px;
+       margin-top:  0px;
+       text-transform: uppercase;
+       }
+   
+     nav #left-nav {
+       float:  left;
+      
+       }
+       
+    #logo-image {
+       margin-top:  20px;
+       padding-top;  50px;
+       margin-left: 168px;
+       }
+       
+    nav #right-nav {
+       float:  left;
+       padding-right: 10px;
+       width:  300px;
+     } 
+
+    
+       
+      nav ul li {
+       display: inline-block;
+       }
+       
+     nav li{
+        padding-right: 25px;
+        padding-left:  25px;
+        } 
+         
+    nav ul li a {
+      font-size: 24px;
+      color:  #78966c;
+      padding-top:  40px;
+      text-transform: uppercase;
+      text-decoration:  none;
+      width:  300px;
+    
+      } 
+    
+  
+   
+    
+      
+    
+    /********  about ********/
+     
+  #about {
+    background-color: #86a17b;
+    background-size: cover; 
+    border:  5px solid #78966c;
+    margin-bottom: 0px;
+  
+    }   
+
+  
+
+     
+  #left-side{
+    float:left;
+    width:  300px;
+    margin: 0px 50px 0px;
+    }
+  #about h2{
+    text-transform: uppercase;
+	margin-top: 15px;
+	margin-bottom: 0px;
+	padding-top:  5px;
+	height:  50px;
+	} 
+ 
+  #right-side{
+    width: 800px;
+    margin-top: 30px;
+  }  
+  #about p{
+    font-family: 'Roboto', sans-serif;
+    color:  black;
+    font-size:  24px;
+    width: 750px;
+    margin-top:  10px;
+    margin-left: 0px;
+    text-indent:  5%;
+    margin-bottom: 0px;
+    padding-top: 17px;
+    }
+     
+  #about .set-of-daisies {
+     float:  right;
+     height:  140px;
+     width:  750px;
+     padding-right:  70px;
+     margin-bottom:  0px;
+     margin-left: 0px;
+     }   
+     
+   .set-of-daisies   li {
+     display:  inline-block;
+     padding:  50px;
+    } 
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    /*********  skills  *********/
+    
+  #skills  {
+    background-color: #a1b79d;
+    background-size:  cover;
+    text-align:  center;
+    border-bottom:  5px solid #78966c;
+    border-left:  5px solid #78966c;
+    border-right: 5px solid #78966c;
+    }
+    
+  #skills h2 {
+   margin-top:  0px;
+   height:  140px;
+   clear:  both;
+   padding-top:  30px;
+   margin-bottom:  0px;
+   padding-bottom:  20px;
+   text-transform: uppercase; 
+     
+    }
+ 
+
+ .third-width h3 {
+    padding-bottom: 0px;
+    margin-top: 0px;
+    padding-top:  0px;
+    text-transform: uppercase;
+    }
+
+  #skills h3 {
+    font-family:  Roboto;
+    font-size: 36px;
+    width: 190px;
+    margin: auto;
+    padding-top:  15px;
+    text-transform: uppercase;
+   }
+
+   
+    
+  /******    contact    *******/  
+    
+    
+  #contact  { 
+    
+    background:  url("../img/website-background.png");
+    background-size:  cover;
+    text-align:  center;
+   }
+  
+
+  #daisy-logo  {
+	float:  right;
+	padding-top:  10px;
+	padding-right:  10px;
+    }   
+   
+  #contact h2{
+   text-align: center;
+   padding-left: 85px;
+   margin-top:  0px;
+   padding-top:  20px;
+   margin-bottom:  5px;
+   text-transform: uppercase;
+  
+   }
+   
+ #contact h3{
+   font-family:  Roboto;
+   font-size:  36px;
+   font-weight:  normal;
+   text-align:  center;
+   margin-top:  5px;
+   margin-bottom:  55px;
+   text-transform: uppercase;
+   }
+   
+ #daisy-head  {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 30px; 
+    
+     }
+     
+    
+   
+   
+ #email{
+   
+   font-family: noteworthy;
+   font-size:  36px;
+   margin-right:  auto;
+   margin-left:  auto;
+  
+  
+  }
+
+
+    
+    
+    /****   footer   *****/
+    
+    
+  #footer  {  
+    background-color: #86a17b;
+    background-size:  cover; 
+    }
+    
+  #footer ul{  
+    list-style:  none;
+    font-size:  12px;
+  
+    }
+  
+    
+ 
+    
+  #left {
+   text-align: left;
+   margin-left: 10px;
+   padding-left: 10px;
+   padding-top:  20px;
+   width:  450px;
+   text-transform: uppercase;
+   }
+   
+  #footer-center{
+      width:  200px;
+      display:  inline-block;
+      margin-left:  125px;
+      text-align:  center; 
+      } 
+       
+  #footer #social-media{
+    display:  inline-block;
+   }
+   
+  #social-media li{
+      
+      margin: 0px;
+      padding-left:  5px;
+      padding-right:  5px;
+      display: inline-block;
+      }
+
+   
+  #social-media {
+     padding-left: 0px;
+    
+     }
+    
+  
+  #footer-right{
+ 	margin-left: 5px
+ 	}
+    
+  
+   #footer .third-width h4{
+     text-align: center;
+     margin:  0px; 
+     }
+     
+   #right ul{
+     width:  450px;
+     	
+     }
+     
+   #footer-right ul li{
+   	width:  450px;
+   }
+     
+   #right {
+     text-align:  right;
+     text-transform: uppercase;
+     padding-right:  0px;
+     padding-left:  0px;
+     margin-right:  20px;
+     padding-top:  20px;
+   } 
+   
+    
+    
+  /*******    projects     *********/  
+    
+    
+    
+      
+#projects  { 
+    
+    background:  url("../img/website-background.png");
+    background-size:  cover;
+    height:  775px;
+   }
+  
+
+#daisy-logo  {
+	float:  right;
+	padding-top:  10px;
+	padding-right:  10px;
+	}   
+   
+#projects h2{
+    padding-left: 15;
+    margin-top:  0px;
+    margin-bottom:  20px;
+    padding-bottom:  10px;
+    text-transform: uppercase;
+   }
+   
+#projects-left {
+  margin-left: 40px;
+  margin-right:  50px;
+  width: 310px;
+    }
+#projects-center{
+    padding-left:  0px;
+    margin-right:  40px;
+    width:  410px;
+    margin-top:  50px;
+    } 
+#projects-right{
+ 
+   margin-right: 40px;
+   width: 310px;
+   }  
+
+#projects .placeholder{
+	height: 200px;
+	width:  300px;
+	background-color:  lightgray;
+ 	border:  5px solid #78966c
+    }
+   
+.each-project {
+    margin-bottom: 40px;
+    }
+    
+ #projects-right #card{
+   	margin-top:  28px;
+   	margin-left:  25px;
+    } 
+ #projects-left #jubilee{
+    height:  180px;
+    width:   280px;
+    margin-left: 10px;
+    margin-top:  10px;
+    }
+ 
+ #projects-right #beans{
+    height:  180px;
+    width:   280px;
+    margin-left: 10px;
+    margin-top:  10px;
+    }
+    
+ #logo{
+	height:  125px;
+	margin-top: 35px;
+	margin-left:  90px;
+    }   
+    
+      
+    
+.each-project h4{
+	font-family:  Roboto;
+	font-size:  16px;
+	color:  black;
+	text-align:  center;
+	margin-bottom:  5px;
+	text-transform: uppercase;
+	}  
+    
+.each-project p{    
+    font-family:  Roboto;
+	font-size:  16px;
+	color:  black;
+	text-align:  center;
+	margin-top:  3px;
+	margin-bottom: 0px;
+	padding-bottom:  10px;
+    }    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
